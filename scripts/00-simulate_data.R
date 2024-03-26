@@ -15,8 +15,8 @@ library(tidyverse)
 #### Simulate data ####
 data <- 
   tibble(
-    level = rnorm(n = 1000, mean = 100, sd = 10) |> floor(),
-    weakness = sample(c("fire", "not fire"), size = 1000, replace = TRUE
+    level = rnorm(n = 1000, mean = 100, sd = 10) |> floor(), 
+    weakness = sample(c("fire", "not fire"), size = 1000, replace = TRUE)
   )
 
 
